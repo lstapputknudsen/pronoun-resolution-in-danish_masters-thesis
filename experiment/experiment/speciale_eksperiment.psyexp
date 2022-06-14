@@ -1,0 +1,1168 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2020.2.3">
+  <Settings>
+    <Param name="Audio latency priority" updates="None" val="use prefs" valType="str"/>
+    <Param name="Audio lib" updates="None" val="use prefs" valType="str"/>
+    <Param name="Completed URL" updates="None" val="" valType="str"/>
+    <Param name="Data file delimiter" updates="None" val="auto" valType="str"/>
+    <Param name="Data filename" updates="None" val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code"/>
+    <Param name="Enable Escape" updates="None" val="True" valType="bool"/>
+    <Param name="Experiment info" updates="None" val="{'participant': '', 'session': '001'}" valType="code"/>
+    <Param name="Force stereo" updates="None" val="True" valType="bool"/>
+    <Param name="Full-screen window" updates="None" val="True" valType="bool"/>
+    <Param name="HTML path" updates="None" val="" valType="str"/>
+    <Param name="Incomplete URL" updates="None" val="" valType="str"/>
+    <Param name="Monitor" updates="None" val="testMonitor" valType="str"/>
+    <Param name="Resources" updates="None" val="[]" valType="fileList"/>
+    <Param name="Save csv file" updates="None" val="False" valType="bool"/>
+    <Param name="Save excel file" updates="None" val="False" valType="bool"/>
+    <Param name="Save log file" updates="None" val="True" valType="bool"/>
+    <Param name="Save psydat file" updates="None" val="True" valType="bool"/>
+    <Param name="Save wide csv file" updates="None" val="True" valType="bool"/>
+    <Param name="Screen" updates="None" val="1" valType="num"/>
+    <Param name="Show info dlg" updates="None" val="True" valType="bool"/>
+    <Param name="Show mouse" updates="None" val="False" valType="bool"/>
+    <Param name="Units" updates="None" val="height" valType="str"/>
+    <Param name="Use version" updates="None" val="" valType="str"/>
+    <Param name="Window size (pixels)" updates="None" val="[1366, 768]" valType="code"/>
+    <Param name="blendMode" updates="None" val="avg" valType="str"/>
+    <Param name="color" updates="None" val="black" valType="str"/>
+    <Param name="colorSpace" updates="None" val="rgb" valType="str"/>
+    <Param name="expName" updates="None" val="speciale_eksperiment" valType="str"/>
+    <Param name="exportHTML" updates="None" val="on Sync" valType="str"/>
+    <Param name="logging level" updates="None" val="exp" valType="code"/>
+  </Settings>
+  <Routines>
+    <Routine name="trial">
+      <TextComponent name="spørgsmål">
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
+        <Param name="name" updates="None" val="spørgsmål" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="1.5" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="Hvis have var det?" valType="extendedStr"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+      <MouseComponent name="mouse">
+        <Param name="clickable" updates="constant" val="polygon_3" valType="code"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutineOnPress" updates="constant" val="valid click" valType="str"/>
+        <Param name="name" updates="None" val="mouse" valType="code"/>
+        <Param name="newClicksOnly" updates="constant" val="True" valType="bool"/>
+        <Param name="saveMouseState" updates="None" val="on click" valType="str"/>
+        <Param name="saveParamsClickable" updates="constant" val="name," valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="1.5" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="False" valType="bool"/>
+        <Param name="timeRelativeTo" updates="constant" val="mouse onset" valType="str"/>
+      </MouseComponent>
+      <PolygonComponent name="polygon_3">
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="fillColor" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="fillColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="lineColor" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="lineColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="lineWidth" updates="constant" val="1" valType="code"/>
+        <Param name="nVertices" updates="constant" val="4" valType="int"/>
+        <Param name="name" updates="None" val="polygon_3" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, -0.4)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="shape" updates="constant" val="cross" valType="str"/>
+        <Param name="size" updates="constant" val="(0.1, 0.1)" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="1.5" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </PolygonComponent>
+    </Routine>
+    <Routine name="trial_2">
+      <MouseComponent name="trial_mouse">
+        <Param name="clickable" updates="constant" val="option_left, option_right" valType="code"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutineOnPress" updates="constant" val="valid click" valType="str"/>
+        <Param name="name" updates="None" val="trial_mouse" valType="code"/>
+        <Param name="newClicksOnly" updates="constant" val="False" valType="bool"/>
+        <Param name="saveMouseState" updates="None" val="every frame" valType="str"/>
+        <Param name="saveParamsClickable" updates="constant" val="name," valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="20" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="timeRelativeTo" updates="constant" val="routine" valType="str"/>
+      </MouseComponent>
+      <TextComponent name="option_left">
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.075" valType="code"/>
+        <Param name="name" updates="None" val="option_left" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0.7, 0.4)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.5" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="20" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="set every repeat" val="$left_option" valType="extendedStr"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+      <TextComponent name="option_right">
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.075" valType="code"/>
+        <Param name="name" updates="None" val="option_right" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(-0.7, 0.4)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.5" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="20" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="set every repeat" val="$right_option" valType="extendedStr"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+      <TextComponent name="trial_quest">
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.075" valType="code"/>
+        <Param name="name" updates="None" val="trial_quest" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.5" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="20" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="set every repeat" val="$question" valType="extendedStr"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+      <PolygonComponent name="trial_start">
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="fillColor" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="fillColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="lineColor" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="lineColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="lineWidth" updates="constant" val="1" valType="code"/>
+        <Param name="nVertices" updates="constant" val="4" valType="int"/>
+        <Param name="name" updates="None" val="trial_start" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, -0.4)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="shape" updates="constant" val="cross" valType="str"/>
+        <Param name="size" updates="constant" val="(0.1, 0.1)" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="20" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </PolygonComponent>
+      <TextComponent name="triCount">
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.03" valType="code"/>
+        <Param name="name" updates="None" val="triCount" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0.7, -0.40)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="20" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="set every repeat" val="$trial_counter" valType="extendedStr"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="pause">
+      <TextComponent name="text">
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
+        <Param name="name" updates="None" val="text" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="0.5" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="" valType="extendedStr"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="tak">
+      <TextComponent name="next_text">
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.075" valType="code"/>
+        <Param name="name" updates="None" val="next_text" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="Tak!&amp;#10;&amp;#10;Tryk på krydset" valType="extendedStr"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+      <PolygonComponent name="next_text_cross">
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="fillColor" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="fillColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="lineColor" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="lineColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="lineWidth" updates="constant" val="1" valType="code"/>
+        <Param name="nVertices" updates="constant" val="4" valType="int"/>
+        <Param name="name" updates="None" val="next_text_cross" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, -0.4)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="shape" updates="constant" val="cross" valType="str"/>
+        <Param name="size" updates="constant" val="(0.1, 0.1)" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </PolygonComponent>
+      <MouseComponent name="next_text_mouse">
+        <Param name="clickable" updates="constant" val="next_text_cross" valType="code"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutineOnPress" updates="constant" val="valid click" valType="str"/>
+        <Param name="name" updates="None" val="next_text_mouse" valType="code"/>
+        <Param name="newClicksOnly" updates="constant" val="True" valType="bool"/>
+        <Param name="saveMouseState" updates="None" val="never" valType="str"/>
+        <Param name="saveParamsClickable" updates="constant" val="name," valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="False" valType="bool"/>
+        <Param name="timeRelativeTo" updates="constant" val="mouse onset" valType="str"/>
+      </MouseComponent>
+      <TextComponent name="tak_train_count">
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.03" valType="code"/>
+        <Param name="name" updates="None" val="tak_train_count" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0.7, -0.4)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="set every repeat" val="$trial_counter&amp;#10;" valType="extendedStr"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="stimuli">
+      <TextComponent name="stim_1_text">
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.05" valType="code"/>
+        <Param name="name" updates="None" val="stim_1_text" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="5" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="set every repeat" val="$stim" valType="extendedStr"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+      <MouseComponent name="stim_1_mouse">
+        <Param name="clickable" updates="constant" val="stim_1_next" valType="code"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutineOnPress" updates="constant" val="valid click" valType="str"/>
+        <Param name="name" updates="None" val="stim_1_mouse" valType="code"/>
+        <Param name="newClicksOnly" updates="constant" val="True" valType="bool"/>
+        <Param name="saveMouseState" updates="None" val="final" valType="str"/>
+        <Param name="saveParamsClickable" updates="constant" val="name," valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="5" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="False" valType="bool"/>
+        <Param name="timeRelativeTo" updates="constant" val="mouse onset" valType="str"/>
+      </MouseComponent>
+      <PolygonComponent name="stim_1_next">
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="fillColor" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="fillColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="lineColor" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="lineColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="lineWidth" updates="constant" val="1" valType="code"/>
+        <Param name="nVertices" updates="constant" val="4" valType="int"/>
+        <Param name="name" updates="None" val="stim_1_next" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, -0.4)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="shape" updates="constant" val="cross" valType="str"/>
+        <Param name="size" updates="constant" val="(0.1, 0.1)" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="5" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </PolygonComponent>
+      <TextComponent name="trial_count">
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.03" valType="code"/>
+        <Param name="name" updates="None" val="trial_count" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0.70, -0.40)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="5" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="set every repeat" val="$trial_counter" valType="extendedStr"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="stimuli_2">
+      <TextComponent name="stim_2_text">
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.075" valType="code"/>
+        <Param name="name" updates="None" val="stim_2_text" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="5" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="set every repeat" val="$sentence_tar" valType="extendedStr"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+      <MouseComponent name="stim_2_mouse">
+        <Param name="clickable" updates="constant" val="stim_2_next" valType="code"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutineOnPress" updates="constant" val="valid click" valType="str"/>
+        <Param name="name" updates="None" val="stim_2_mouse" valType="code"/>
+        <Param name="newClicksOnly" updates="constant" val="True" valType="bool"/>
+        <Param name="saveMouseState" updates="None" val="final" valType="str"/>
+        <Param name="saveParamsClickable" updates="constant" val="name," valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="5" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="False" valType="bool"/>
+        <Param name="timeRelativeTo" updates="constant" val="mouse onset" valType="str"/>
+      </MouseComponent>
+      <PolygonComponent name="stim_2_next">
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="fillColor" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="fillColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="lineColor" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="lineColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="lineWidth" updates="constant" val="1" valType="code"/>
+        <Param name="nVertices" updates="constant" val="4" valType="int"/>
+        <Param name="name" updates="None" val="stim_2_next" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, -0.4)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="shape" updates="constant" val="cross" valType="str"/>
+        <Param name="size" updates="constant" val="(0.1, 0.1)" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="5" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </PolygonComponent>
+    </Routine>
+    <Routine name="training_stimuli_1">
+      <CodeComponent name="code">
+        <Param name="Before Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Before JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Code Type" updates="None" val="Auto-&gt;JS" valType="str"/>
+        <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="code" valType="code"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="training_trial_2"/>
+    <Routine name="nu_starter_vi">
+      <TextComponent name="real_start">
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.05" valType="code"/>
+        <Param name="name" updates="None" val="real_start" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="Sådan! Det var træningsrunden&amp;#10;&amp;#10;Tal med den forsøgsansvarlige for at gå videre til forsøget." valType="extendedStr"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+      <KeyboardComponent name="start_real">
+        <Param name="allowedKeys" updates="constant" val="'x', 'y'" valType="code"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="start_real" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="instruction_1">
+      <TextComponent name="instruktion">
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.05" valType="code"/>
+        <Param name="name" updates="None" val="instruktion" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="Velkommen til forsøget!&amp;#10;&amp;#10;I forsøget vil du blive præsenteret for nogle sætninger. Til hver sætning er der et spørgsmål, du skal svare på. Du skal klikke på det svar, du tror er rigtigt, så hurtigt som muligt.&amp;#10;&amp;#10;Du går videre ved at klikke med musen på krydset.&amp;#10;" valType="extendedStr"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+      <MouseComponent name="instruction_mouse">
+        <Param name="clickable" updates="constant" val="start_1" valType="code"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutineOnPress" updates="constant" val="valid click" valType="str"/>
+        <Param name="name" updates="None" val="instruction_mouse" valType="code"/>
+        <Param name="newClicksOnly" updates="constant" val="True" valType="bool"/>
+        <Param name="saveMouseState" updates="None" val="never" valType="str"/>
+        <Param name="saveParamsClickable" updates="constant" val="name," valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="False" valType="bool"/>
+        <Param name="timeRelativeTo" updates="constant" val="mouse onset" valType="str"/>
+      </MouseComponent>
+      <PolygonComponent name="start_1">
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="fillColor" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="fillColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="lineColor" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="lineColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="lineWidth" updates="constant" val="1" valType="code"/>
+        <Param name="nVertices" updates="constant" val="4" valType="int"/>
+        <Param name="name" updates="None" val="start_1" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, -0.4)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="shape" updates="constant" val="cross" valType="str"/>
+        <Param name="size" updates="constant" val="(0.1, 0.1)" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </PolygonComponent>
+    </Routine>
+    <Routine name="instruction_2">
+      <TextComponent name="instr_2">
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.05" valType="code"/>
+        <Param name="name" updates="None" val="instr_2" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="Du skal trykke med musen på krydset for at få præsenteret ny tekst i løbet af forsøget.&amp;#10;&amp;#10;Der vil først være en træningsrunde, hvor det bliver klart, hvad du skal gøre.&amp;#10;&amp;#10;Tryk på krydset, når du er klar til at starte træningsrunden." valType="extendedStr"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+      <MouseComponent name="intr_2_mouse">
+        <Param name="clickable" updates="constant" val="start_2" valType="code"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutineOnPress" updates="constant" val="valid click" valType="str"/>
+        <Param name="name" updates="None" val="intr_2_mouse" valType="code"/>
+        <Param name="newClicksOnly" updates="constant" val="True" valType="bool"/>
+        <Param name="saveMouseState" updates="None" val="never" valType="str"/>
+        <Param name="saveParamsClickable" updates="constant" val="name," valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="False" valType="bool"/>
+        <Param name="timeRelativeTo" updates="constant" val="mouse onset" valType="str"/>
+      </MouseComponent>
+      <PolygonComponent name="start_2">
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="fillColor" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="fillColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="lineColor" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="lineColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="lineWidth" updates="constant" val="1" valType="code"/>
+        <Param name="nVertices" updates="constant" val="4" valType="int"/>
+        <Param name="name" updates="None" val="start_2" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, -0.4)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="shape" updates="constant" val="cross" valType="str"/>
+        <Param name="size" updates="constant" val="(0.1, 0.1)" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </PolygonComponent>
+    </Routine>
+    <Routine name="training_stimuli">
+      <TextComponent name="train_stim_1">
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.05" valType="code"/>
+        <Param name="name" updates="None" val="train_stim_1" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="7" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="set every repeat" val="$stim" valType="extendedStr"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+      <PolygonComponent name="train_stim_1_next">
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="fillColor" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="fillColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="lineColor" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="lineColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="lineWidth" updates="constant" val="1" valType="code"/>
+        <Param name="nVertices" updates="constant" val="4" valType="int"/>
+        <Param name="name" updates="None" val="train_stim_1_next" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, -0.4)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="shape" updates="constant" val="cross" valType="str"/>
+        <Param name="size" updates="constant" val="(0.1, 0.1)" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="7" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </PolygonComponent>
+      <MouseComponent name="train_stim_1_mouse">
+        <Param name="clickable" updates="constant" val="train_stim_1_next" valType="code"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutineOnPress" updates="constant" val="valid click" valType="str"/>
+        <Param name="name" updates="None" val="train_stim_1_mouse" valType="code"/>
+        <Param name="newClicksOnly" updates="constant" val="True" valType="bool"/>
+        <Param name="saveMouseState" updates="None" val="on click" valType="str"/>
+        <Param name="saveParamsClickable" updates="constant" val="name," valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="7" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="False" valType="bool"/>
+        <Param name="timeRelativeTo" updates="constant" val="routine" valType="str"/>
+      </MouseComponent>
+      <TextComponent name="train_count">
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.03" valType="code"/>
+        <Param name="name" updates="None" val="train_count" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0.7, -0.40)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="7" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="set every repeat" val="$trial_counter&amp;#10;" valType="extendedStr"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="training_stimuli_2">
+      <TextComponent name="train_stim_2">
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.075" valType="code"/>
+        <Param name="name" updates="None" val="train_stim_2" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="5" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="set every repeat" val="test" valType="extendedStr"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+      <PolygonComponent name="train_stim_2_next">
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="fillColor" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="fillColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="lineColor" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="lineColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="lineWidth" updates="constant" val="1" valType="code"/>
+        <Param name="nVertices" updates="constant" val="4" valType="int"/>
+        <Param name="name" updates="None" val="train_stim_2_next" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, -0.40)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="shape" updates="constant" val="cross" valType="str"/>
+        <Param name="size" updates="constant" val="(0.1, 0.1)" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="5" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </PolygonComponent>
+      <MouseComponent name="train_stim_2_mouse">
+        <Param name="clickable" updates="constant" val="train_stim_2_next" valType="code"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutineOnPress" updates="constant" val="valid click" valType="str"/>
+        <Param name="name" updates="None" val="train_stim_2_mouse" valType="code"/>
+        <Param name="newClicksOnly" updates="constant" val="True" valType="bool"/>
+        <Param name="saveMouseState" updates="None" val="on click" valType="str"/>
+        <Param name="saveParamsClickable" updates="constant" val="name," valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="5" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="False" valType="bool"/>
+        <Param name="timeRelativeTo" updates="constant" val="routine" valType="str"/>
+      </MouseComponent>
+    </Routine>
+    <Routine name="training_trial_3">
+      <MouseComponent name="training_mousetrack">
+        <Param name="clickable" updates="constant" val="option_left_train, option_right_train" valType="code"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutineOnPress" updates="constant" val="valid click" valType="str"/>
+        <Param name="name" updates="None" val="training_mousetrack" valType="code"/>
+        <Param name="newClicksOnly" updates="constant" val="True" valType="bool"/>
+        <Param name="saveMouseState" updates="None" val="every frame" valType="str"/>
+        <Param name="saveParamsClickable" updates="constant" val="name," valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="10" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="False" valType="bool"/>
+        <Param name="timeRelativeTo" updates="constant" val="routine" valType="str"/>
+      </MouseComponent>
+      <TextComponent name="option_left_train">
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.075" valType="code"/>
+        <Param name="name" updates="None" val="option_left_train" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(-0.7, 0.4)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.5" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="10" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="set every repeat" val="$option_1" valType="extendedStr"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+      <TextComponent name="option_right_train">
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.075" valType="code"/>
+        <Param name="name" updates="None" val="option_right_train" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0.70, 0.4)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.5" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="10" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="set every repeat" val="$option_2" valType="extendedStr"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+      <TextComponent name="question_train">
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.075" valType="code"/>
+        <Param name="name" updates="None" val="question_train" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.5" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="10" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="set every repeat" val="$question" valType="extendedStr"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+      <PolygonComponent name="train_trial_start">
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="fillColor" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="fillColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="lineColor" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="lineColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="lineWidth" updates="constant" val="1" valType="code"/>
+        <Param name="nVertices" updates="constant" val="4" valType="int"/>
+        <Param name="name" updates="None" val="train_trial_start" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, -0.40)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="shape" updates="constant" val="cross" valType="str"/>
+        <Param name="size" updates="constant" val="(0.1, 0.1)" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="10" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </PolygonComponent>
+      <TextComponent name="trial_count_train">
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.03" valType="code"/>
+        <Param name="name" updates="None" val="trial_count_train" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0.7, -0.40)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="10" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="set every repeat" val="$trial_counter&amp;#10;" valType="extendedStr"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="end">
+      <TextComponent name="end_text">
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.075" valType="code"/>
+        <Param name="name" updates="None" val="end_text" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="20" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="Forsøget er slut!&amp;#10;Tak for din deltagelse." valType="extendedStr"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="start_real_2">
+      <PolygonComponent name="start_between">
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="fillColor" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="fillColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="lineColor" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="lineColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="lineWidth" updates="constant" val="1" valType="code"/>
+        <Param name="nVertices" updates="constant" val="4" valType="int"/>
+        <Param name="name" updates="None" val="start_between" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, -0.40)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="shape" updates="constant" val="cross" valType="str"/>
+        <Param name="size" updates="constant" val="(0.1, 0.1)" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </PolygonComponent>
+      <TextComponent name="starting_text">
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.075" valType="code"/>
+        <Param name="name" updates="None" val="starting_text" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="Tryk på krydset for at starte" valType="extendedStr"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+      <MouseComponent name="real_start_mouse">
+        <Param name="clickable" updates="constant" val="start_between" valType="code"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutineOnPress" updates="constant" val="valid click" valType="str"/>
+        <Param name="name" updates="None" val="real_start_mouse" valType="code"/>
+        <Param name="newClicksOnly" updates="constant" val="True" valType="bool"/>
+        <Param name="saveMouseState" updates="None" val="on click" valType="str"/>
+        <Param name="saveParamsClickable" updates="constant" val="name," valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="False" valType="bool"/>
+        <Param name="timeRelativeTo" updates="constant" val="mouse onset" valType="str"/>
+      </MouseComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="instruction_1"/>
+    <Routine name="pause"/>
+    <Routine name="instruction_2"/>
+    <LoopInitiator loopType="TrialHandler" name="training_trial">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[OrderedDict([('stim_1', 'Birgitte var meget tilfreds.'), ('stim_2', 'Agnete elskede popcorn i biografen.'), ('stim', 'Birgitte var meget tilfreds. Agnete elskede popcorn i biografen.'), ('option_1', 'Agnete'), ('option_2', 'Birgitte'), ('question', 'Hvem elskede popcorn?'), ('id', 1), ('correctAnswer', 'option_1'), ('trial_counter', '1/5')]), OrderedDict([('stim_1', 'Ib var meget lykkelig.'), ('stim_2', 'Jens elskede film.'), ('stim', 'Ib var meget lykkelig. Jens elskede film.'), ('option_1', 'Ib'), ('option_2', 'Jens'), ('question', 'Hvem var lykkelig?'), ('id', 2), ('correctAnswer', 'option_1'), ('trial_counter', '2/5')]), OrderedDict([('stim_1', 'Casper var meget begejstret.'), ('stim_2', 'Han så Theodor danse.'), ('stim', 'Casper var meget begejstret. Han så Theodor danse.'), ('option_1', 'Theodor'), ('option_2', 'Casper'), ('question', 'Hvem var begejstret?'), ('id', 3), ('correctAnswer', 'option_2'), ('trial_counter', '3/5')]), OrderedDict([('stim_1', 'Marianne var meget flov.'), ('stim_2', 'Line elskede film.'), ('stim', 'Marianne var meget flov. Line elskede film.'), ('option_1', 'Line'), ('option_2', 'Marianne'), ('question', 'Hvem elskede film?'), ('id', 4), ('correctAnswer', 'option_1'), ('trial_counter', '4/5')]), OrderedDict([('stim_1', 'Bo var meget skuffet.'), ('stim_2', 'Lars så ham ryste på hovedet.'), ('stim', 'Bo var meget skuffet. Lars så ham ryste på hovedet.'), ('option_1', 'Lars'), ('option_2', 'Bo'), ('question', 'Hvem var skuffet?'), ('id', 5), ('correctAnswer', 'option_2'), ('trial_counter', '5/5')])]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="training_stimuli.xlsx" valType="str"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="sequential" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="code"/>
+      <Param name="name" updates="None" val="training_trial" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="pause"/>
+    <Routine name="training_stimuli"/>
+    <Routine name="training_trial_3"/>
+    <Routine name="tak"/>
+    <LoopTerminator name="training_trial"/>
+    <Routine name="nu_starter_vi"/>
+    <Routine name="start_real_2"/>
+    <LoopInitiator loopType="TrialHandler" name="trials">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[OrderedDict([('nr_in_trial', 1), ('list_1', 3), ('id', 152), ('item', 56), ('condition', 'na'), ('type', 'Filler_2'), ('sentence_involvement', 'Sune var meget fornøjet.'), ('sentence_tar', 'Gustav fik en optagelse af ham.'), ('stim', 'Sune var meget fornøjet. Gustav fik en optagelse af ham.'), ('question', 'Hvem var optagelsen af?'), ('verbum_1', 'na'), ('verbum_2', 'na'), ('deltager_koen', 'mand'), ('subj_navn', 'Sune'), ('obj_navn', 'Gustav'), ('feeling', 'fornøjet'), ('subj_screen_pos', 'right'), ('left_option', 'Gustav'), ('right_option', 'Sune'), ('trial_counter', '1/80')]), OrderedDict([('nr_in_trial', 2), ('list_1', 3), ('id', 140), ('item', 44), ('condition', 'na'), ('type', 'Filler_1'), ('sentence_involvement', 'Allan var  rasende.'), ('sentence_tar', 'Torben var ikke glad for at han spillede violin.'), ('stim', 'Allan var  rasende. Torben var ikke glad for at han spillede violin.'), ('question', 'Hvem spillede violin?'), ('verbum_1', 'na'), ('verbum_2', 'na'), ('deltager_koen', 'mand'), ('subj_navn', 'Allan'), ('obj_navn', 'Torben'), ('feeling', 'rasende'), ('subj_screen_pos', 'left'), ('left_option', 'Allan'), ('right_option', 'Torben'), ('trial_counter', '2/80')]), OrderedDict([('nr_in_trial', 3), ('list_1', 3), ('id', 22), ('item', 6), ('condition', 'obj_refl'), ('type', 'objPræpF'), ('sentence_involvement', 'Magda var meget lykkelig.'), ('sentence_tar', 'Birthe krammede hende i sit køkken.'), ('stim', 'Magda var meget lykkelig. Birthe krammede hende i sit køkken.'), ('question', 'Hvis køkken var det?'), ('verbum_1', 'kramme'), ('verbum_2', 'na'), ('deltager_koen', 'kvinde'), ('subj_navn', 'Birthe'), ('obj_navn', 'Magda'), ('feeling', 'lykkelig'), ('subj_screen_pos', 'right'), ('left_option', 'Magda'), ('right_option', 'Birthe'), ('trial_counter', '3/80')]), OrderedDict([('nr_in_trial', 4), ('list_1', 3), ('id', 138), ('item', 42), ('condition', 'na'), ('type', 'Filler_1'), ('sentence_involvement', 'Torkild var meget frustreret.'), ('sentence_tar', 'Phillip nød at han havde fri.'), ('stim', 'Torkild var meget frustreret. Phillip nød at han havde fri.'), ('question', 'Hvem havde fri?'), ('verbum_1', 'na'), ('verbum_2', 'na'), ('deltager_koen', 'mand'), ('subj_navn', 'Torkild'), ('obj_navn', 'Phillip'), ('feeling', 'frustreret'), ('subj_screen_pos', 'right'), ('left_option', 'Phillip'), ('right_option', 'Torkild'), ('trial_counter', '4/80')]), OrderedDict([('nr_in_trial', 5), ('list_1', 3), ('id', 160), ('item', 64), ('condition', 'subj'), ('type', 'Filler_3'), ('sentence_involvement', 'Simon var meget irriteret.'), ('sentence_tar', 'Oscar blev kysset af ham til en konfirmation.'), ('stim', 'Simon var meget irriteret. Oscar blev kysset af ham til en konfirmation.'), ('question', 'Hvem blev kysset?'), ('verbum_1', 'na'), ('verbum_2', 'na'), ('deltager_koen', 'mand'), ('subj_navn', 'Simon'), ('obj_navn', 'Oscar'), ('feeling', 'irriteret'), ('subj_screen_pos', 'right'), ('left_option', 'Oscar'), ('right_option', 'Simon'), ('trial_counter', '5/80')]), OrderedDict([('nr_in_trial', 6), ('list_1', 3), ('id', 176), ('item', 80), ('condition', 'na'), ('type', 'Filler_4'), ('sentence_involvement', 'Ingolf var meget lykkelig.'), ('sentence_tar', 'Boris krammede alle efter den store fejring.'), ('stim', 'Ingolf var meget lykkelig. Boris krammede alle efter den store fejring.'), ('question', 'Hvem var lykkelig?'), ('verbum_1', 'na'), ('verbum_2', 'na'), ('deltager_koen', 'mand'), ('subj_navn', 'Ingolf'), ('obj_navn', 'Boris'), ('feeling', 'lykkelig'), ('subj_screen_pos', 'left'), ('left_option', 'Ingolf'), ('right_option', 'Boris'), ('trial_counter', '6/80')]), OrderedDict([('nr_in_trial', 7), ('list_1', 3), ('id', 89), ('item', 23), ('condition', 'subj_refl'), ('type', 'AcI'), ('sentence_involvement', 'Anja var meget overrasket.'), ('sentence_tar', 'Hun opdagede Kirsten planlægge sin fest.'), ('stim', 'Anja var meget overrasket. Hun opdagede Kirsten planlægge sin fest.'), ('question', 'Hvis fest var det?'), ('verbum_1', 'opdage'), ('verbum_2', 'planlægge'), ('deltager_koen', 'kvinde'), ('subj_navn', 'Anja'), ('obj_navn', 'Kirsten'), ('feeling', 'glad'), ('subj_screen_pos', 'right'), ('left_option', 'Kirsten'), ('right_option', 'Anja'), ('trial_counter', '7/80')]), OrderedDict([('nr_in_trial', 8), ('list_1', 3), ('id', 159), ('item', 63), ('condition', 'subj'), ('type', 'Filler_3'), ('sentence_involvement', 'Adam var meget frustreret.'), ('sentence_tar', 'René blev krammet af ham til et bryllup.'), ('stim', 'Adam var meget frustreret. René blev krammet af ham til et bryllup.'), ('question', 'Hvem blev krammet?'), ('verbum_1', 'na'), ('verbum_2', 'na'), ('deltager_koen', 'mand'), ('subj_navn', 'Adam'), ('obj_navn', 'René'), ('feeling', 'frustreret'), ('subj_screen_pos', 'left'), ('left_option', 'Adam'), ('right_option', 'René'), ('trial_counter', '8/80')]), OrderedDict([('nr_in_trial', 9), ('list_1', 3), ('id', 96), ('item', 24), ('condition', 'obj_nonrefl'), ('type', 'AcI'), ('sentence_involvement', 'Jette var meget stolt.'), ('sentence_tar', 'Lene noterede hende vaske hendes pokal.'), ('stim', 'Jette var meget stolt. Lene noterede hende vaske hendes pokal.'), ('question', 'Hvis pokal var det?'), ('verbum_1', 'notere'), ('verbum_2', 'vaske'), ('deltager_koen', 'kvinde'), ('subj_navn', 'Lene'), ('obj_navn', 'Jette'), ('feeling', 'stolt'), ('subj_screen_pos', 'left'), ('left_option', 'Lene'), ('right_option', 'Jette'), ('trial_counter', '9/80')]), OrderedDict([('nr_in_trial', 10), ('list_1', 3), ('id', 136), ('item', 40), ('condition', 'na'), ('type', 'Filler_1'), ('sentence_involvement', 'Pelle var meget forelsket.'), ('sentence_tar', 'Emil kunne ikke lide når han lavede mad.'), ('stim', 'Pelle var meget forelsket. Emil kunne ikke lide når han lavede mad.'), ('question', 'Hvem lavede mad?'), ('verbum_1', 'na'), ('verbum_2', 'na'), ('deltager_koen', 'mand'), ('subj_navn', 'Pelle'), ('obj_navn', 'Emil'), ('feeling', 'forelsket'), ('subj_screen_pos', 'right'), ('left_option', 'Emil'), ('right_option', 'Pelle'), ('trial_counter', '10/80')]), OrderedDict([('nr_in_trial', 11), ('list_1', 3), ('id', 156), ('item', 60), ('condition', 'obj'), ('type', 'Filler_3'), ('sentence_involvement', 'Trine var meget skuffet.'), ('sentence_tar', 'Lærke krammede hende i en entré.'), ('stim', 'Trine var meget skuffet. Lærke krammede hende i en entré.'), ('question', 'Hvem blev krammet?'), ('verbum_1', 'na'), ('verbum_2', 'na'), ('deltager_koen', 'kvinde'), ('subj_navn', 'Trine'), ('obj_navn', 'Lærke'), ('feeling', 'skuffet'), ('subj_screen_pos', 'left'), ('left_option', 'Trine'), ('right_option', 'Lærke'), ('trial_counter', '11/80')]), OrderedDict([('nr_in_trial', 12), ('list_1', 3), ('id', 41), ('item', 11), ('condition', 'subj_refl'), ('type', 'objPræpF'), ('sentence_involvement', 'Stefan var meget irriteret.'), ('sentence_tar', 'Han overhørte Morten før sin frokostpause.'), ('stim', 'Stefan var meget irriteret. Han overhørte Morten før sin frokostpause.'), ('question', 'Hvis frokostpause var det?'), ('verbum_1', 'overhøre'), ('verbum_2', 'na'), ('deltager_koen', 'mand'), ('subj_navn', 'Stefan'), ('obj_navn', 'Morten'), ('feeling', 'irriteret'), ('subj_screen_pos', 'right'), ('left_option', 'Morten'), ('right_option', 'Stefan'), ('trial_counter', '12/80')]), OrderedDict([('nr_in_trial', 13), ('list_1', 3), ('id', 134), ('item', 38), ('condition', 'na'), ('type', 'Filler_1'), ('sentence_involvement', 'Freja var meget lykkelig.'), ('sentence_tar', 'Else var ikke glad for at hun trænede.'), ('stim', 'Freja var meget lykkelig. Else var ikke glad for at hun trænede.'), ('question', 'Hvem trænede?'), ('verbum_1', 'na'), ('verbum_2', 'na'), ('deltager_koen', 'kvinde'), ('subj_navn', 'Freja'), ('obj_navn', 'Else'), ('feeling', 'lykkelig'), ('subj_screen_pos', 'right'), ('left_option', 'Else'), ('right_option', 'Freja'), ('trial_counter', '13/80')]), OrderedDict([('nr_in_trial', 14), ('list_1', 3), ('id', 83), ('item', 21), ('condition', 'subj_nonrefl'), ('type', 'AcI'), ('sentence_involvement', 'Linda var meget forundret.'), ('sentence_tar', 'Hun kiggede på Tanja male hendes cykel.'), ('stim', 'Linda var meget forundret. Hun kiggede på Tanja male hendes cykel.'), ('question', 'Hvis cykel var det?'), ('verbum_1', 'kigge'), ('verbum_2', 'male'), ('deltager_koen', 'kvinde'), ('subj_navn', 'Linda'), ('obj_navn', 'Tanja'), ('feeling', 'forundret'), ('subj_screen_pos', 'right'), ('left_option', 'Tanja'), ('right_option', 'Linda'), ('trial_counter', '14/80')]), OrderedDict([('nr_in_trial', 15), ('list_1', 3), ('id', 174), ('item', 78), ('condition', 'na'), ('type', 'Filler_4'), ('sentence_involvement', 'Rune var meget flov.'), ('sentence_tar', 'Oscar kastede op til jubilæumet.'), ('stim', 'Rune var meget flov. Oscar kastede op til jubilæumet.'), ('question', 'Hvem var flov?'), ('verbum_1', 'na'), ('verbum_2', 'na'), ('deltager_koen', 'mand'), ('subj_navn', 'Rune'), ('obj_navn', 'Oscar'), ('feeling', 'flov'), ('subj_screen_pos', 'right'), ('left_option', 'Oscar'), ('right_option', 'Rune'), ('trial_counter', '15/80')]), OrderedDict([('nr_in_trial', 16), ('list_1', 3), ('id', 146), ('item', 50), ('condition', 'na'), ('type', 'Filler_2'), ('sentence_involvement', 'Nanna var meget tilfreds.'), ('sentence_tar', 'Ditte fik en optagelse af hende.'), ('stim', 'Nanna var meget tilfreds. Ditte fik en optagelse af hende.'), ('question', 'Hvem var optagelsen af?'), ('verbum_1', 'na'), ('verbum_2', 'na'), ('deltager_koen', 'kvinde'), ('subj_navn', 'Nanna'), ('obj_navn', 'Ditte'), ('feeling', 'tilfreds'), ('subj_screen_pos', 'right'), ('left_option', 'Ditte'), ('right_option', 'Nanna'), ('trial_counter', '16/80')]), OrderedDict([('nr_in_trial', 17), ('list_1', 3), ('id', 67), ('item', 17), ('condition', 'subj_nonrefl'), ('type', 'AcI'), ('sentence_involvement', 'Tine var meget skuffet.'), ('sentence_tar', 'Hun hørte Lise betvivle hendes mand.'), ('stim', 'Tine var meget skuffet. Hun hørte Lise betvivle hendes mand.'), ('question', 'Hvis mand var det?'), ('verbum_1', 'høre'), ('verbum_2', 'betvivle'), ('deltager_koen', 'kvinde'), ('subj_navn', 'Tine'), ('obj_navn', 'Lise'), ('feeling', 'skuffet'), ('subj_screen_pos', 'right'), ('left_option', 'Lise'), ('right_option', 'Tine'), ('trial_counter', '17/80')]), OrderedDict([('nr_in_trial', 18), ('list_1', 3), ('id', 132), ('item', 36), ('condition', 'na'), ('type', 'Filler_1'), ('sentence_involvement', 'Ilse var meget flov.'), ('sentence_tar', 'Anne nød at hun rødmede.'), ('stim', 'Ilse var meget flov. Anne nød at hun rødmede.'), ('question', 'Hvem rødmede?'), ('verbum_1', 'na'), ('verbum_2', 'na'), ('deltager_koen', 'kvinde'), ('subj_navn', 'Ilse'), ('obj_navn', 'Anne'), ('feeling', 'flov'), ('subj_screen_pos', 'left'), ('left_option', 'Ilse'), ('right_option', 'Anne'), ('trial_counter', '18/80')]), OrderedDict([('nr_in_trial', 19), ('list_1', 3), ('id', 19), ('item', 5), ('condition', 'subj_nonrefl'), ('type', 'objPræpF'), ('sentence_involvement', 'Frida var meget begejstret.'), ('sentence_tar', 'Hun lykønskede Sigrid på hendes kontor.'), ('stim', 'Frida var meget begejstret. Hun lykønskede Sigrid på hendes kontor.'), ('question', 'Hvis kontor var det?'), ('verbum_1', 'lykønske'), ('verbum_2', 'na'), ('deltager_koen', 'kvinde'), ('subj_navn', 'Frida'), ('obj_navn', 'Sigrid'), ('feeling', 'begejstret'), ('subj_screen_pos', 'right'), ('left_option', 'Sigrid'), ('right_option', 'Frida'), ('trial_counter', '19/80')]), OrderedDict([('nr_in_trial', 20), ('list_1', 3), ('id', 164), ('item', 68), ('condition', 'subj'), ('type', 'Filler_3'), ('sentence_involvement', 'Eigil var meget sur.'), ('sentence_tar', 'Han blev fulgt hjem fra en lille park af Vilhelm.'), ('stim', 'Eigil var meget sur. Han blev fulgt hjem fra en lille park af Vilhelm.'), ('question', 'Hvem blev fulgt hjem?'), ('verbum_1', 'na'), ('verbum_2', 'na'), ('deltager_koen', 'mand'), ('subj_navn', 'Eigil'), ('obj_navn', 'Vilhelm'), ('feeling', 'sur'), ('subj_screen_pos', 'right'), ('left_option', 'Vilhelm'), ('right_option', 'Eigil'), ('trial_counter', '20/80')]), OrderedDict([('nr_in_trial', 21), ('list_1', 3), ('id', 129), ('item', 33), ('condition', 'na'), ('type', 'Filler_1'), ('sentence_involvement', 'Tone var meget glad.'), ('sentence_tar', 'Grete elskede når hun svømmede.'), ('stim', 'Tone var meget glad. Grete elskede når hun svømmede.'), ('question', 'Hvem svømmede?'), ('verbum_1', 'na'), ('verbum_2', 'na'), ('deltager_koen', 'kvinde'), ('subj_navn', 'Tone'), ('obj_navn', 'Grete'), ('feeling', 'glad'), ('subj_screen_pos', 'left'), ('left_option', 'Tone'), ('right_option', 'Grete'), ('trial_counter', '21/80')]), OrderedDict([('nr_in_trial', 22), ('list_1', 3), ('id', 128), ('item', 32), ('condition', 'obj_nonrefl'), ('type', 'AcI'), ('sentence_involvement', 'Victor var meget mistænksom.'), ('sentence_tar', 'Jonas noterede ham forlade hans kontor.'), ('stim', 'Victor var meget mistænksom. Jonas noterede ham forlade hans kontor.'), ('question', 'Hvis kontor var det?'), ('verbum_1', 'notere'), ('verbum_2', 'forlade'), ('deltager_koen', 'mand'), ('subj_navn', 'Jonas'), ('obj_navn', 'Victor'), ('feeling', 'mistænksom'), ('subj_screen_pos', 'left'), ('left_option', 'Jonas'), ('right_option', 'Victor'), ('trial_counter', '22/80')]), OrderedDict([('nr_in_trial', 23), ('list_1', 3), ('id', 175), ('item', 79), ('condition', 'na'), ('type', 'Filler_4'), ('sentence_involvement', 'William var meget begejstret.'), ('sentence_tar', 'Ditlev vandt alle konkurrencer på arbejdspladsen.'), ('stim', 'William var meget begejstret. Ditlev vandt alle konkurrencer på arbejdspladsen.'), ('question', 'Hvem var begejstret?'), ('verbum_1', 'na'), ('verbum_2', 'na'), ('deltager_koen', 'mand'), ('subj_navn', 'William'), ('obj_navn', 'Ditlev'), ('feeling', 'begejstret'), ('subj_screen_pos', 'right'), ('left_option', 'Ditlev'), ('right_option', 'William'), ('trial_counter', '23/80')]), OrderedDict([('nr_in_trial', 24), ('list_1', 3), ('id', 86), ('item', 22), ('condition', 'obj_refl'), ('type', 'AcI'), ('sentence_involvement', 'Gerta var meget tilfreds.'), ('sentence_tar', 'Ingrid så hende hjælpe sin datter.'), ('stim', 'Gerta var meget tilfreds. Ingrid så hende hjælpe sin datter.'), ('question', 'Hvis datter var det?'), ('verbum_1', 'se'), ('verbum_2', 'hjælpe'), ('deltager_koen', 'kvinde'), ('subj_navn', 'Ingrid'), ('obj_navn', 'Gerta'), ('feeling', 'tilfreds'), ('subj_screen_pos', 'left'), ('left_option', 'Ingrid'), ('right_option', 'Gerta'), ('trial_counter', '24/80')]), OrderedDict([('nr_in_trial', 25), ('list_1', 3), ('id', 168), ('item', 72), ('condition', 'na'), ('type', 'Filler_4'), ('sentence_involvement', 'Dagmar var meget mistænksom.'), ('sentence_tar', 'Freja kendte ikke manden på kontoret.'), ('stim', 'Dagmar var meget mistænksom. Freja kendte ikke manden på kontoret.'), ('question', 'Hvem var mistænksom?'), ('verbum_1', 'na'), ('verbum_2', 'na'), ('deltager_koen', 'kvinde'), ('subj_navn', 'Dagmar'), ('obj_navn', 'Freja'), ('feeling', 'mistænksom'), ('subj_screen_pos', 'left'), ('left_option', 'Dagmar'), ('right_option', 'Freja'), ('trial_counter', '25/80')]), OrderedDict([('nr_in_trial', 26), ('list_1', 3), ('id', 142), ('item', 46), ('condition', 'na'), ('type', 'Filler_2'), ('sentence_involvement', 'Lone var meget trist.'), ('sentence_tar', 'Ella fik et fotografi af hende.'), ('stim', 'Lone var meget trist. Ella fik et fotografi af hende.'), ('question', 'Hvem var fotografiet af?'), ('verbum_1', 'na'), ('verbum_2', 'na'), ('deltager_koen', 'kvinde'), ('subj_navn', 'Lone'), ('obj_navn', 'Ella'), ('feeling', 'trist'), ('subj_screen_pos', 'right'), ('left_option', 'Ella'), ('right_option', 'Lone'), ('trial_counter', '26/80')]), OrderedDict([('nr_in_trial', 27), ('list_1', 3), ('id', 121), ('item', 31), ('condition', 'subj_refl'), ('type', 'AcI'), ('sentence_involvement', 'Jesper var meget fornøjet.'), ('sentence_tar', 'Han skimtede Palle klargøre sin grill.'), ('stim', 'Jesper var meget fornøjet. Han skimtede Palle klargøre sin grill.'), ('question', 'Hvis grill var det?'), ('verbum_1', 'skimte'), ('verbum_2', 'klargøre'), ('deltager_koen', 'mand'), ('subj_navn', 'Jesper'), ('obj_navn', 'Palle'), ('feeling', 'fornøjet'), ('subj_screen_pos', 'left'), ('left_option', 'Jesper'), ('right_option', 'Palle'), ('trial_counter', '27/80')]), OrderedDict([('nr_in_trial', 28), ('list_1', 3), ('id', 143), ('item', 47), ('condition', 'na'), ('type', 'Filler_2'), ('sentence_involvement', 'Helga var meget begejstret.'), ('sentence_tar', 'Birgit fik en fortælling om hende.'), ('stim', 'Helga var meget begejstret. Birgit fik en fortælling om hende.'), ('question', 'Hvem var fortællingen om?'), ('verbum_1', 'na'), ('verbum_2', 'na'), ('deltager_koen', 'kvinde'), ('subj_navn', 'Helga'), ('obj_navn', 'Birgit'), ('feeling', 'begejstret'), ('subj_screen_pos', 'right'), ('left_option', 'Birgit'), ('right_option', 'Helga'), ('trial_counter', '28/80')]), OrderedDict([('nr_in_trial', 29), ('list_1', 3), ('id', 112), ('item', 28), ('condition', 'obj_nonrefl'), ('type', 'AcI'), ('sentence_involvement', 'Søren var meget glad.'), ('sentence_tar', 'Villads skimtede ham  reparere hans stereoanlæg.'), ('stim', 'Søren var meget glad. Villads skimtede ham  reparere hans stereoanlæg.'), ('question', 'Hvis stereoanlæg var det?'), ('verbum_1', 'skimte'), ('verbum_2', 'reparere'), ('deltager_koen', 'mand'), ('subj_navn', 'Villads'), ('obj_navn', 'Søren'), ('feeling', 'overrasket'), ('subj_screen_pos', 'right'), ('left_option', 'Søren'), ('right_option', 'Villads'), ('trial_counter', '29/80')]), OrderedDict([('nr_in_trial', 30), ('list_1', 3), ('id', 154), ('item', 58), ('condition', 'obj'), ('type', 'Filler_3'), ('sentence_involvement', 'Inger var meget begejstret.'), ('sentence_tar', 'Hun slog Dagmar i et tv-studie.'), ('stim', 'Inger var meget begejstret. Hun slog Dagmar i et tv-studie.'), ('question', 'Hvem blev slået?'), ('verbum_1', 'na'), ('verbum_2', 'na'), ('deltager_koen', 'kvinde'), ('subj_navn', 'Inger'), ('obj_navn', 'Dagmar'), ('feeling', 'begejstret'), ('subj_screen_pos', 'left'), ('left_option', 'Inger'), ('right_option', 'Dagmar'), ('trial_counter', '30/80')]), OrderedDict([('nr_in_trial', 31), ('list_1', 3), ('id', 167), ('item', 71), ('condition', 'na'), ('type', 'Filler_4'), ('sentence_involvement', 'Astrid var meget fornøjet.'), ('sentence_tar', 'Agnes elskede popcorn i biografen.'), ('stim', 'Astrid var meget fornøjet. Agnes elskede popcorn i biografen.'), ('question', 'Hvem var fornøjet?'), ('verbum_1', 'na'), ('verbum_2', 'na'), ('deltager_koen', 'kvinde'), ('subj_navn', 'Astrid'), ('obj_navn', 'Agnes'), ('feeling', 'fornøjet'), ('subj_screen_pos', 'left'), ('left_option', 'Astrid'), ('right_option', 'Agnes'), ('trial_counter', '31/80')]), OrderedDict([('nr_in_trial', 32), ('list_1', 3), ('id', 102), ('item', 26), ('condition', 'obj_refl'), ('type', 'AcI'), ('sentence_involvement', 'Johan var meget nervøs.'), ('sentence_tar', 'Preben overværede ham rense sin tagrende'), ('stim', 'Johan var meget nervøs. Preben overværede ham rense sin tagrende'), ('question', 'Hvis tagrende var det?'), ('verbum_1', 'overvære'), ('verbum_2', 'rense'), ('deltager_koen', 'mand'), ('subj_navn', 'Preben'), ('obj_navn', 'Johan'), ('feeling', 'nervøs'), ('subj_screen_pos', 'right'), ('left_option', 'Johan'), ('right_option', 'Preben'), ('trial_counter', '32/80')]), OrderedDict([('nr_in_trial', 33), ('list_1', 3), ('id', 165), ('item', 69), ('condition', 'na'), ('type', 'Filler_4'), ('sentence_involvement', 'Ester var meget irriteret.'), ('sentence_tar', 'Anna kunne ikke lide børn i parken.'), ('stim', 'Ester var meget irriteret. Anna kunne ikke lide børn i parken.'), ('question', 'Hvem var irriteret?'), ('verbum_1', 'na'), ('verbum_2', 'na'), ('deltager_koen', 'kvinde'), ('subj_navn', 'Ester'), ('obj_navn', 'Anna'), ('feeling', 'irriteret'), ('subj_screen_pos', 'left'), ('left_option', 'Ester'), ('right_option', 'Anna'), ('trial_counter', '33/80')]), OrderedDict([('nr_in_trial', 34), ('list_1', 3), ('id', 150), ('item', 54), ('condition', 'na'), ('type', 'Filler_2'), ('sentence_involvement', 'Toke var meget irriteret.'), ('sentence_tar', 'Vilhelm fik en sang om ham.'), ('stim', 'Toke var meget irriteret. Vilhelm fik en sang om ham.'), ('question', 'Hvem var sangen om?'), ('verbum_1', 'na'), ('verbum_2', 'na'), ('deltager_koen', 'mand'), ('subj_navn', 'Toke'), ('obj_navn', 'Vilhelm'), ('feeling', 'irriteret'), ('subj_screen_pos', 'right'), ('left_option', 'Vilhelm'), ('right_option', 'Toke'), ('trial_counter', '34/80')]), OrderedDict([('nr_in_trial', 35), ('list_1', 3), ('id', 3), ('item', 1), ('condition', 'subj_nonrefl'), ('type', 'objPræpF'), ('sentence_involvement', 'Karin var meget glad.'), ('sentence_tar', 'Hun så Mette på hendes fødselsdag.'), ('stim', 'Karin var meget glad. Hun så Mette på hendes fødselsdag.'), ('question', 'Hvis fødselsdag var det?'), ('verbum_1', 'se'), ('verbum_2', 'na'), ('deltager_koen', 'kvinde'), ('subj_navn', 'Karin'), ('obj_navn', 'Mette'), ('feeling', 'glad'), ('subj_screen_pos', 'left'), ('left_option', 'Karin'), ('right_option', 'Mette'), ('trial_counter', '35/80')]), OrderedDict([('nr_in_trial', 36), ('list_1', 3), ('id', 137), ('item', 41), ('condition', 'na'), ('type', 'Filler_1'), ('sentence_involvement', 'Eigil var meget sur.'), ('sentence_tar', 'Ole morede sig over at han dansede.'), ('stim', 'Eigil var meget sur. Ole morede sig over at han dansede.'), ('question', 'Hvem dansede?'), ('verbum_1', 'na'), ('verbum_2', 'na'), ('deltager_koen', 'mand'), ('subj_navn', 'Eigil'), ('obj_navn', 'Ole'), ('feeling', 'sur'), ('subj_screen_pos', 'left'), ('left_option', 'Eigil'), ('right_option', 'Ole'), ('trial_counter', '36/80')]), OrderedDict([('nr_in_trial', 37), ('list_1', 3), ('id', 105), ('item', 27), ('condition', 'subj_refl'), ('type', 'AcI'), ('sentence_involvement', 'Jannik var meget sur.'), ('sentence_tar', 'Han overhørte Anders smadre sin bil.'), ('stim', 'Jannik var meget sur. Han overhørte Anders smadre sin bil.'), ('question', 'Hvis bil var det?'), ('verbum_1', 'overhøre'), ('verbum_2', 'smadre'), ('deltager_koen', 'mand'), ('subj_navn', 'Jannik'), ('obj_navn', 'Anders'), ('feeling', 'sur'), ('subj_screen_pos', 'right'), ('left_option', 'Anders'), ('right_option', 'Jannik'), ('trial_counter', '37/80')]), OrderedDict([('nr_in_trial', 38), ('list_1', 3), ('id', 139), ('item', 43), ('condition', 'na'), ('type', 'Filler_1'), ('sentence_involvement', 'Benny var meget irriteret.'), ('sentence_tar', 'Karsten hadede at han snød.'), ('stim', 'Benny var meget irriteret. Karsten hadede at han snød.'), ('question', 'Hvem snød?'), ('verbum_1', 'na'), ('verbum_2', 'na'), ('deltager_koen', 'mand'), ('subj_navn', 'Benny'), ('obj_navn', 'Karsten'), ('feeling', 'irriteret'), ('subj_screen_pos', 'right'), ('left_option', 'Karsten'), ('right_option', 'Benny'), ('trial_counter', '38/80')]), OrderedDict([('nr_in_trial', 39), ('list_1', 3), ('id', 25), ('item', 7), ('condition', 'subj_refl'), ('type', 'objPræpF'), ('sentence_involvement', 'Hanne var meget skuffet.'), ('sentence_tar', 'Hun skubbede Signe i sin indkørsel.'), ('stim', 'Hanne var meget skuffet. Hun skubbede Signe i sin indkørsel.'), ('question', 'Hvis indkørsel var det?'), ('verbum_1', 'skubbe'), ('verbum_2', 'na'), ('deltager_koen', 'kvinde'), ('subj_navn', 'Hanne'), ('obj_navn', 'Signe'), ('feeling', 'skuffet'), ('subj_screen_pos', 'left'), ('left_option', 'Hanne'), ('right_option', 'Signe'), ('trial_counter', '39/80')]), OrderedDict([('nr_in_trial', 40), ('list_1', 3), ('id', 171), ('item', 75), ('condition', 'na'), ('type', 'Filler_4'), ('sentence_involvement', 'Torkild var meget glad.'), ('sentence_tar', 'Frode havde trænet hundehvalpen i haven.'), ('stim', 'Torkild var meget glad. Frode havde trænet hundehvalpen i haven.'), ('question', 'Hvem var glad?'), ('verbum_1', 'na'), ('verbum_2', 'na'), ('deltager_koen', 'mand'), ('subj_navn', 'Torkild'), ('obj_navn', 'Frode'), ('feeling', 'glad'), ('subj_screen_pos', 'left'), ('left_option', 'Torkild'), ('right_option', 'Frode'), ('trial_counter', '40/80')]), OrderedDict([('nr_in_trial', 41), ('list_1', 3), ('id', 161), ('item', 65), ('condition', 'subj'), ('type', 'Filler_3'), ('sentence_involvement', 'Mikkel var meget rasende.'), ('sentence_tar', 'Ditlev blev slået af ham på et stort kontor.'), ('stim', 'Mikkel var meget rasende. Ditlev blev slået af ham på et stort kontor.'), ('question', 'Hvem blev slået?'), ('verbum_1', 'na'), ('verbum_2', 'na'), ('deltager_koen', 'mand'), ('subj_navn', 'Mikkel'), ('obj_navn', 'Ditlev'), ('feeling', 'rasende'), ('subj_screen_pos', 'right'), ('left_option', 'Ditlev'), ('right_option', 'Mikkel'), ('trial_counter', '41/80')]), OrderedDict([('nr_in_trial', 42), ('list_1', 3), ('id', 73), ('item', 19), ('condition', 'subj_refl'), ('type', 'AcI'), ('sentence_involvement', 'Emma var meget irriteret.'), ('sentence_tar', 'Hun hørte Nina ødelægge sit køkken.'), ('stim', 'Emma var meget irriteret. Hun hørte Nina ødelægge sit køkken.'), ('question', 'Hvis køkken var det?'), ('verbum_1', 'høre'), ('verbum_2', 'ødelægge'), ('deltager_koen', 'kvinde'), ('subj_navn', 'Emma'), ('obj_navn', 'Nina'), ('feeling', 'frustreret'), ('subj_screen_pos', 'left'), ('left_option', 'Emma'), ('right_option', 'Nina'), ('trial_counter', '42/80')]), OrderedDict([('nr_in_trial', 43), ('list_1', 3), ('id', 145), ('item', 49), ('condition', 'na'), ('type', 'Filler_2'), ('sentence_involvement', 'Rikke var meget nervøs.'), ('sentence_tar', 'Ester fik en historie om hende.'), ('stim', 'Rikke var meget nervøs. Ester fik en historie om hende.'), ('question', 'Hvem var historien om?'), ('verbum_1', 'na'), ('verbum_2', 'na'), ('deltager_koen', 'kvinde'), ('subj_navn', 'Rikke'), ('obj_navn', 'Ester'), ('feeling', 'nervøs'), ('subj_screen_pos', 'left'), ('left_option', 'Rikke'), ('right_option', 'Ester'), ('trial_counter', '43/80')]), OrderedDict([('nr_in_trial', 44), ('list_1', 3), ('id', 64), ('item', 16), ('condition', 'obj_nonrefl'), ('type', 'objPræpF'), ('sentence_involvement', 'Børge var mistænksom.'), ('sentence_tar', 'David observerede ham i hans have.'), ('stim', 'Børge var mistænksom. David observerede ham i hans have.'), ('question', 'Hvis have var det?'), ('verbum_1', 'observere'), ('verbum_2', 'na'), ('deltager_koen', 'mand'), ('subj_navn', 'David'), ('obj_navn', 'Børge'), ('feeling', 'mistænksom'), ('subj_screen_pos', 'right'), ('left_option', 'Børge'), ('right_option', 'David'), ('trial_counter', '44/80')]), OrderedDict([('nr_in_trial', 45), ('list_1', 3), ('id', 169), ('item', 73), ('condition', 'na'), ('type', 'Filler_4'), ('sentence_involvement', 'Gertrud var meget trist.'), ('sentence_tar', 'Bodil blev forladt ved alteret.'), ('stim', 'Gertrud var meget trist. Bodil blev forladt ved alteret.'), ('question', 'Hvem var trist?'), ('verbum_1', 'na'), ('verbum_2', 'na'), ('deltager_koen', 'kvinde'), ('subj_navn', 'Gertrud'), ('obj_navn', 'Bodil'), ('feeling', 'trist'), ('subj_screen_pos', 'right'), ('left_option', 'Bodil'), ('right_option', 'Gertrud'), ('trial_counter', '45/80')]), OrderedDict([('nr_in_trial', 46), ('list_1', 3), ('id', 80), ('item', 20), ('condition', 'obj_nonrefl'), ('type', 'AcI'), ('sentence_involvement', 'Stine var rasende.'), ('sentence_tar', 'Conny opdagede hende snyde hendes firma.'), ('stim', 'Stine var rasende. Conny opdagede hende snyde hendes firma.'), ('question', 'Hvis firma var det?'), ('verbum_1', 'opdage'), ('verbum_2', 'snyde'), ('deltager_koen', 'kvinde'), ('subj_navn', 'Conny'), ('obj_navn', 'Stine'), ('feeling', 'rasende'), ('subj_screen_pos', 'right'), ('left_option', 'Stine'), ('right_option', 'Conny'), ('trial_counter', '46/80')]), OrderedDict([('nr_in_trial', 47), ('list_1', 3), ('id', 147), ('item', 51), ('condition', 'na'), ('type', 'Filler_2'), ('sentence_involvement', 'Rune var meget nysgerrig.'), ('sentence_tar', 'Danny fik et billede af ham.'), ('stim', 'Rune var meget nysgerrig. Danny fik et billede af ham.'), ('question', 'Hvem var billedet af?'), ('verbum_1', 'na'), ('verbum_2', 'na'), ('deltager_koen', 'mand'), ('subj_navn', 'Rune'), ('obj_navn', 'Danny'), ('feeling', 'nysgerrig'), ('subj_screen_pos', 'left'), ('left_option', 'Rune'), ('right_option', 'Danny'), ('trial_counter', '47/80')]), OrderedDict([('nr_in_trial', 48), ('list_1', 3), ('id', 99), ('item', 25), ('condition', 'subj_nonrefl'), ('type', 'AcI'), ('sentence_involvement', 'Silas var meget irriteret.'), ('sentence_tar', 'Han overhørte Otto bagtale hans kone.'), ('stim', 'Silas var meget irriteret. Han overhørte Otto bagtale hans kone.'), ('question', 'Hvis kone var det?'), ('verbum_1', 'overhøre'), ('verbum_2', 'bagtale'), ('deltager_koen', 'mand'), ('subj_navn', 'Silas'), ('obj_navn', 'Otto'), ('feeling', 'irriteret'), ('subj_screen_pos', 'left'), ('left_option', 'Silas'), ('right_option', 'Otto'), ('trial_counter', '48/80')]), OrderedDict([('nr_in_trial', 49), ('list_1', 3), ('id', 163), ('item', 67), ('condition', 'subj'), ('type', 'Filler_3'), ('sentence_involvement', 'Pelle var meget frustreret.'), ('sentence_tar', 'Han blev slået af Georg  på et lille arbejdsværelse.'), ('stim', 'Pelle var meget frustreret. Han blev slået af Georg  på et lille arbejdsværelse.'), ('question', 'Hvem blev slået?'), ('verbum_1', 'na'), ('verbum_2', 'na'), ('deltager_koen', 'mand'), ('subj_navn', 'Pelle'), ('obj_navn', 'Georg'), ('feeling', 'frustreret'), ('subj_screen_pos', 'left'), ('left_option', 'Pelle'), ('right_option', 'Georg'), ('trial_counter', '49/80')]), OrderedDict([('nr_in_trial', 50), ('list_1', 3), ('id', 162), ('item', 66), ('condition', 'subj'), ('type', 'Filler_3'), ('sentence_involvement', 'Alex var meget nysgerrig.'), ('sentence_tar', 'Han blev krammet af Boris under en middag.'), ('stim', 'Alex var meget nysgerrig. Han blev krammet af Boris under en middag.'), ('question', 'Hvem blev krammet?'), ('verbum_1', 'na'), ('verbum_2', 'na'), ('deltager_koen', 'mand'), ('subj_navn', 'Alex'), ('obj_navn', 'Boris'), ('feeling', 'nysgerrig'), ('subj_screen_pos', 'left'), ('left_option', 'Alex'), ('right_option', 'Boris'), ('trial_counter', '50/80')]), OrderedDict([('nr_in_trial', 51), ('list_1', 3), ('id', 57), ('item', 15), ('condition', 'subj_refl'), ('type', 'objPræpF'), ('sentence_involvement', 'Patrick var meget fornøjet.'), ('sentence_tar', 'Han drillede Joakim til sin konfirmation.'), ('stim', 'Patrick var meget fornøjet. Han drillede Joakim til sin konfirmation.'), ('question', 'Hvis konfirmation var det?'), ('verbum_1', 'drille'), ('verbum_2', 'na'), ('deltager_koen', 'mand'), ('subj_navn', 'Patrick'), ('obj_navn', 'Joakim'), ('feeling', 'fornøjet'), ('subj_screen_pos', 'left'), ('left_option', 'Patrick'), ('right_option', 'Joakim'), ('trial_counter', '51/80')]), OrderedDict([('nr_in_trial', 52), ('list_1', 3), ('id', 170), ('item', 74), ('condition', 'na'), ('type', 'Filler_4'), ('sentence_involvement', 'Lærke var meget begejstret.'), ('sentence_tar', 'Lone købte et hus på landet.'), ('stim', 'Lærke var meget begejstret. Lone købte et hus på landet.'), ('question', 'Hvem var begejstret?'), ('verbum_1', 'na'), ('verbum_2', 'na'), ('deltager_koen', 'kvinde'), ('subj_navn', 'Lærke'), ('obj_navn', 'Lone'), ('feeling', 'begejstret'), ('subj_screen_pos', 'right'), ('left_option', 'Lone'), ('right_option', 'Lærke'), ('trial_counter', '52/80')]), OrderedDict([('nr_in_trial', 53), ('list_1', 3), ('id', 35), ('item', 9), ('condition', 'subj_nonrefl'), ('type', 'objPræpF'), ('sentence_involvement', 'Niklas var meget sur.'), ('sentence_tar', 'Han bagtalte Martin efter hans optræden.'), ('stim', 'Niklas var meget sur. Han bagtalte Martin efter hans optræden.'), ('question', 'Hvis optræden var det?'), ('verbum_1', 'bagtale'), ('verbum_2', 'na'), ('deltager_koen', 'mand'), ('subj_navn', 'Niklas'), ('obj_navn', 'Martin'), ('feeling', 'sur'), ('subj_screen_pos', 'left'), ('left_option', 'Niklas'), ('right_option', 'Martin'), ('trial_counter', '53/80')]), OrderedDict([('nr_in_trial', 54), ('list_1', 3), ('id', 153), ('item', 57), ('condition', 'obj'), ('type', 'Filler_3'), ('sentence_involvement', 'Laura var meget flov.'), ('sentence_tar', 'Hun krammede Astrid i et stort køkken.'), ('stim', 'Laura var meget flov. Hun krammede Astrid i et stort køkken.'), ('question', 'Hvem blev krammet?'), ('verbum_1', 'na'), ('verbum_2', 'na'), ('deltager_koen', 'kvinde'), ('subj_navn', 'Laura'), ('obj_navn', 'Astrid'), ('feeling', 'flov'), ('subj_screen_pos', 'left'), ('left_option', 'Laura'), ('right_option', 'Astrid'), ('trial_counter', '54/80')]), OrderedDict([('nr_in_trial', 55), ('list_1', 3), ('id', 149), ('item', 53), ('condition', 'na'), ('type', 'Filler_2'), ('sentence_involvement', 'Ingolf var meget sur.'), ('sentence_tar', 'Georg fik en fortælling om ham.'), ('stim', 'Ingolf var meget sur. Georg fik en fortælling om ham.'), ('question', 'Hvem var fortællingen om?'), ('verbum_1', 'na'), ('verbum_2', 'na'), ('deltager_koen', 'mand'), ('subj_navn', 'Ingolf'), ('obj_navn', 'Georg'), ('feeling', 'sur'), ('subj_screen_pos', 'left'), ('left_option', 'Ingolf'), ('right_option', 'Georg'), ('trial_counter', '55/80')]), OrderedDict([('nr_in_trial', 56), ('list_1', 3), ('id', 32), ('item', 8), ('condition', 'obj_nonrefl'), ('type', 'objPræpF'), ('sentence_involvement', 'Karla var meget forelsket.'), ('sentence_tar', 'Ellen kyssede hende i hendes arbejdsværelse.'), ('stim', 'Karla var meget forelsket. Ellen kyssede hende i hendes arbejdsværelse.'), ('question', 'Hvis arbejdsværelse var det?'), ('verbum_1', 'kysse'), ('verbum_2', 'na'), ('deltager_koen', 'kvinde'), ('subj_navn', 'Ellen'), ('obj_navn', 'Karla'), ('feeling', 'forelsket'), ('subj_screen_pos', 'right'), ('left_option', 'Karla'), ('right_option', 'Ellen'), ('trial_counter', '56/80')]), OrderedDict([('nr_in_trial', 57), ('list_1', 3), ('id', 151), ('item', 55), ('condition', 'na'), ('type', 'Filler_2'), ('sentence_involvement', 'Markus var meget overrasket.'), ('sentence_tar', 'Frode fik en historie om ham.'), ('stim', 'Markus var meget overrasket. Frode fik en historie om ham.'), ('question', 'Hvem var historien om?'), ('verbum_1', 'na'), ('verbum_2', 'na'), ('deltager_koen', 'mand'), ('subj_navn', 'Markus'), ('obj_navn', 'Frode'), ('feeling', 'overrasket'), ('subj_screen_pos', 'left'), ('left_option', 'Markus'), ('right_option', 'Frode'), ('trial_counter', '57/80')]), OrderedDict([('nr_in_trial', 58), ('list_1', 3), ('id', 135), ('item', 39), ('condition', 'na'), ('type', 'Filler_1'), ('sentence_involvement', 'Konrad var meget skuffet.'), ('sentence_tar', 'Kenneth elskede når han sang.'), ('stim', 'Konrad var meget skuffet. Kenneth elskede når han sang.'), ('question', 'Hvem sang?'), ('verbum_1', 'na'), ('verbum_2', 'na'), ('deltager_koen', 'mand'), ('subj_navn', 'Konrad'), ('obj_navn', 'Kenneth'), ('feeling', 'skuffet'), ('subj_screen_pos', 'left'), ('left_option', 'Konrad'), ('right_option', 'Kenneth'), ('trial_counter', '58/80')]), OrderedDict([('nr_in_trial', 59), ('list_1', 3), ('id', 115), ('item', 29), ('condition', 'subj_nonrefl'), ('type', 'AcI'), ('sentence_involvement', 'Jakob var meget lykkelig.'), ('sentence_tar', 'Han kiggede på Rasmus kramme hans barn.'), ('stim', 'Jakob var meget lykkelig. Han kiggede på Rasmus kramme hans barn.'), ('question', 'Hvis barn var det?'), ('verbum_1', 'kigge'), ('verbum_2', 'kramme'), ('deltager_koen', 'mand'), ('subj_navn', 'Jakob'), ('obj_navn', 'Rasmus'), ('feeling', 'lykkelig'), ('subj_screen_pos', 'right'), ('left_option', 'Rasmus'), ('right_option', 'Jakob'), ('trial_counter', '59/80')]), OrderedDict([('nr_in_trial', 60), ('list_1', 3), ('id', 131), ('item', 35), ('condition', 'na'), ('type', 'Filler_1'), ('sentence_involvement', 'Anna var meget tilfreds.'), ('sentence_tar', 'Heidi morede sig over at hun strikkede. '), ('stim', 'Anna var meget tilfreds. Heidi morede sig over at hun strikkede. '), ('question', 'Hvem strikkede?'), ('verbum_1', 'na'), ('verbum_2', 'na'), ('deltager_koen', 'kvinde'), ('subj_navn', 'Anna'), ('obj_navn', 'Heidi'), ('feeling', 'tilfreds'), ('subj_screen_pos', 'left'), ('left_option', 'Anna'), ('right_option', 'Heidi'), ('trial_counter', '60/80')]), OrderedDict([('nr_in_trial', 61), ('list_1', 3), ('id', 118), ('item', 30), ('condition', 'obj_refl'), ('type', 'AcI'), ('sentence_involvement', 'Bjarne var meget flov.'), ('sentence_tar', 'Erik så ham gennemsøge sit værelse.'), ('stim', 'Bjarne var meget flov. Erik så ham gennemsøge sit værelse.'), ('question', 'Hvis værelse var det?'), ('verbum_1', 'se'), ('verbum_2', 'gennemsøge'), ('deltager_koen', 'mand'), ('subj_navn', 'Erik'), ('obj_navn', 'Bjarne'), ('feeling', 'flov'), ('subj_screen_pos', 'right'), ('left_option', 'Bjarne'), ('right_option', 'Erik'), ('trial_counter', '61/80')]), OrderedDict([('nr_in_trial', 62), ('list_1', 3), ('id', 173), ('item', 77), ('condition', 'na'), ('type', 'Filler_4'), ('sentence_involvement', 'Allan var meget tilfreds.'), ('sentence_tar', 'René trænede hårdt på arbejdspladsen.'), ('stim', 'Allan var meget tilfreds. René trænede hårdt på arbejdspladsen.'), ('question', 'Hvem var tilfreds?'), ('verbum_1', 'na'), ('verbum_2', 'na'), ('deltager_koen', 'mand'), ('subj_navn', 'Allan'), ('obj_navn', 'René'), ('feeling', 'tilfreds'), ('subj_screen_pos', 'left'), ('left_option', 'Allan'), ('right_option', 'René'), ('trial_counter', '62/80')]), OrderedDict([('nr_in_trial', 75), ('list_1', 3), ('id', 16), ('item', 4), ('condition', 'obj_nonrefl'), ('type', 'objPræpF'), ('sentence_involvement', 'Dorte var meget flov.'), ('sentence_tar', 'Lisa ignorerede hende efter hendes polterabend.'), ('stim', 'Dorte var meget flov. Lisa ignorerede hende efter hendes polterabend.'), ('question', 'Hvis polterabend var det?'), ('verbum_1', 'ignorere'), ('verbum_2', 'na'), ('deltager_koen', 'kvinde'), ('subj_navn', 'Lisa'), ('obj_navn', 'Dorte'), ('feeling', 'flov'), ('subj_screen_pos', 'right'), ('left_option', 'Dorte'), ('right_option', 'Lisa'), ('trial_counter', '63/80')]), OrderedDict([('nr_in_trial', 64), ('list_1', 3), ('id', 157), ('item', 61), ('condition', 'obj'), ('type', 'Filler_3'), ('sentence_involvement', 'Birgit var meget forelsket.'), ('sentence_tar', 'Tone slog hende i en stor have.'), ('stim', 'Birgit var meget forelsket. Tone slog hende i en stor have.'), ('question', 'Hvem blev slået?'), ('verbum_1', 'na'), ('verbum_2', 'na'), ('deltager_koen', 'kvinde'), ('subj_navn', 'Birgit'), ('obj_navn', 'Tone'), ('feeling', 'forelsket'), ('subj_screen_pos', 'left'), ('left_option', 'Birgit'), ('right_option', 'Tone'), ('trial_counter', '64/80')]), OrderedDict([('nr_in_trial', 65), ('list_1', 3), ('id', 155), ('item', 59), ('condition', 'obj'), ('type', 'Filler_3'), ('sentence_involvement', 'Asta var meget lykkelig.'), ('sentence_tar', 'Hun kyssede Gertrud i en lille lejlighed.'), ('stim', 'Asta var meget lykkelig. Hun kyssede Gertrud i en lille lejlighed.'), ('question', 'Hvem blev kysset?'), ('verbum_1', 'na'), ('verbum_2', 'na'), ('deltager_koen', 'kvinde'), ('subj_navn', 'Asta'), ('obj_navn', 'Gertrud'), ('feeling', 'lykkelig'), ('subj_screen_pos', 'right'), ('left_option', 'Gertrud'), ('right_option', 'Asta'), ('trial_counter', '65/80')]), OrderedDict([('nr_in_trial', 66), ('list_1', 3), ('id', 54), ('item', 14), ('condition', 'obj_refl'), ('type', 'objPræpF'), ('sentence_involvement', 'Peter var meget overrasket.'), ('sentence_tar', 'Anton opdagede ham i sin stue.'), ('stim', 'Peter var meget overrasket. Anton opdagede ham i sin stue.'), ('question', 'Hvis stue var det?'), ('verbum_1', 'opdage'), ('verbum_2', 'na'), ('deltager_koen', 'mand'), ('subj_navn', 'Anton'), ('obj_navn', 'Peter'), ('feeling', 'overrasket'), ('subj_screen_pos', 'right'), ('left_option', 'Peter'), ('right_option', 'Anton'), ('trial_counter', '66/80')]), OrderedDict([('nr_in_trial', 67), ('list_1', 3), ('id', 144), ('item', 48), ('condition', 'na'), ('type', 'Filler_2'), ('sentence_involvement', 'Elva var meget glad.'), ('sentence_tar', 'Nadia fik en sang om hende.'), ('stim', 'Elva var meget glad. Nadia fik en sang om hende.'), ('question', 'Hvem var sangen om?'), ('verbum_1', 'na'), ('verbum_2', 'na'), ('deltager_koen', 'kvinde'), ('subj_navn', 'Elva'), ('obj_navn', 'Nadia'), ('feeling', 'glad'), ('subj_screen_pos', 'right'), ('left_option', 'Nadia'), ('right_option', 'Elva'), ('trial_counter', '67/80')]), OrderedDict([('nr_in_trial', 68), ('list_1', 3), ('id', 130), ('item', 34), ('condition', 'na'), ('type', 'Filler_1'), ('sentence_involvement', 'Eva var meget nervøs.'), ('sentence_tar', 'Ida kunne ikke lide når hun klatrede på bjerge.'), ('stim', 'Eva var meget nervøs. Ida kunne ikke lide når hun klatrede på bjerge.'), ('question', 'Hvem klatrede på bjerge?'), ('verbum_1', 'na'), ('verbum_2', 'na'), ('deltager_koen', 'kvinde'), ('subj_navn', 'Eva'), ('obj_navn', 'Ida'), ('feeling', 'nervøs'), ('subj_screen_pos', 'right'), ('left_option', 'Ida'), ('right_option', 'Eva'), ('trial_counter', '68/80')]), OrderedDict([('nr_in_trial', 69), ('list_1', 3), ('id', 48), ('item', 12), ('condition', 'obj_nonrefl'), ('type', 'objPræpF'), ('sentence_involvement', 'Magnus var rasende.'), ('sentence_tar', 'Lucas slog ham i hans baggård.'), ('stim', 'Magnus var rasende. Lucas slog ham i hans baggård.'), ('question', 'Hvis baggård var det?'), ('verbum_1', 'slå'), ('verbum_2', 'na'), ('deltager_koen', 'mand'), ('subj_navn', 'Lucas'), ('obj_navn', 'Magnus'), ('feeling', 'rasende'), ('subj_screen_pos', 'left'), ('left_option', 'Lucas'), ('right_option', 'Magnus'), ('trial_counter', '69/80')]), OrderedDict([('nr_in_trial', 70), ('list_1', 3), ('id', 158), ('item', 62), ('condition', 'obj'), ('type', 'Filler_3'), ('sentence_involvement', 'Nadia var meget sur.'), ('sentence_tar', 'Eva fulgte hende hjem fra en fest.'), ('stim', 'Nadia var meget sur. Eva fulgte hende hjem fra en fest.'), ('question', 'Hvem blev fulgt hjem?'), ('verbum_1', 'na'), ('verbum_2', 'na'), ('deltager_koen', 'kvinde'), ('subj_navn', 'Nadia'), ('obj_navn', 'Eva'), ('feeling', 'sur'), ('subj_screen_pos', 'left'), ('left_option', 'Nadia'), ('right_option', 'Eva'), ('trial_counter', '70/80')]), OrderedDict([('nr_in_trial', 71), ('list_1', 3), ('id', 70), ('item', 18), ('condition', 'obj_refl'), ('type', 'AcI'), ('sentence_involvement', 'Sara var meget begejstret.'), ('sentence_tar', 'Thea overværede hende træne sin hund.'), ('stim', 'Sara var meget begejstret. Thea overværede hende træne sin hund.'), ('question', 'Hvis hund var det?'), ('verbum_1', 'overvære'), ('verbum_2', 'træne'), ('deltager_koen', 'kvinde'), ('subj_navn', 'Thea'), ('obj_navn', 'Sara'), ('feeling', 'begejstret'), ('subj_screen_pos', 'right'), ('left_option', 'Sara'), ('right_option', 'Thea'), ('trial_counter', '71/80')]), OrderedDict([('nr_in_trial', 72), ('list_1', 3), ('id', 133), ('item', 37), ('condition', 'na'), ('type', 'Filler_1'), ('sentence_involvement', 'Agnes var meget begejstret.'), ('sentence_tar', 'Sanne hadede at hun spillede fodbold.'), ('stim', 'Agnes var meget begejstret. Sanne hadede at hun spillede fodbold.'), ('question', 'Hvem spillede fodbold?'), ('verbum_1', 'na'), ('verbum_2', 'na'), ('deltager_koen', 'kvinde'), ('subj_navn', 'Agnes'), ('obj_navn', 'Sanne'), ('feeling', 'begejstret'), ('subj_screen_pos', 'left'), ('left_option', 'Agnes'), ('right_option', 'Sanne'), ('trial_counter', '72/80')]), OrderedDict([('nr_in_trial', 73), ('list_1', 3), ('id', 51), ('item', 13), ('condition', 'subj_nonrefl'), ('type', 'objPræpF'), ('sentence_involvement', 'Eskild var meget stolt.'), ('sentence_tar', 'Han hørte Malthe i hans køkken.'), ('stim', 'Eskild var meget stolt. Han hørte Malthe i hans køkken.'), ('question', 'Hvis køkken var det?'), ('verbum_1', 'høre'), ('verbum_2', 'na'), ('deltager_koen', 'mand'), ('subj_navn', 'Eskild'), ('obj_navn', 'Malthe'), ('feeling', 'stolt'), ('subj_screen_pos', 'right'), ('left_option', 'Malthe'), ('right_option', 'Eskild'), ('trial_counter', '73/80')]), OrderedDict([('nr_in_trial', 74), ('list_1', 3), ('id', 141), ('item', 45), ('condition', 'na'), ('type', 'Filler_2'), ('sentence_involvement', 'Bodil var meget mistænksom.'), ('sentence_tar', 'Alma fik et billede af hende.'), ('stim', 'Bodil var meget mistænksom. Alma fik et billede af hende.'), ('question', 'Hvem var billedet af?'), ('verbum_1', 'na'), ('verbum_2', 'na'), ('deltager_koen', 'kvinde'), ('subj_navn', 'Bodil'), ('obj_navn', 'Alma'), ('feeling', 'mistænksom'), ('subj_screen_pos', 'right'), ('left_option', 'Alma'), ('right_option', 'Bodil'), ('trial_counter', '74/80')]), OrderedDict([('nr_in_trial', 63), ('list_1', 3), ('id', 172), ('item', 76), ('condition', 'na'), ('type', 'Filler_4'), ('sentence_involvement', 'Benny var meget nervøs.'), ('sentence_tar', 'Gustav svømmede ikke godt i havet.'), ('stim', 'Benny var meget nervøs. Gustav svømmede ikke godt i havet.'), ('question', 'Hvem var nervøs?'), ('verbum_1', 'na'), ('verbum_2', 'na'), ('deltager_koen', 'mand'), ('subj_navn', 'Benny'), ('obj_navn', 'Gustav'), ('feeling', 'nervøs'), ('subj_screen_pos', 'right'), ('left_option', 'Gustav'), ('right_option', 'Benny'), ('trial_counter', '75/80')]), OrderedDict([('nr_in_trial', 76), ('list_1', 3), ('id', 6), ('item', 2), ('condition', 'obj_refl'), ('type', 'objPræpF'), ('sentence_involvement', 'Majken var meget nervøs.'), ('sentence_tar', 'Klara advarede hende før sit bryllup.'), ('stim', 'Majken var meget nervøs. Klara advarede hende før sit bryllup.'), ('question', 'Hvis bryllup var det?'), ('verbum_1', 'advare'), ('verbum_2', 'na'), ('deltager_koen', 'kvinde'), ('subj_navn', 'Klara'), ('obj_navn', 'Majken'), ('feeling', 'nervøs'), ('subj_screen_pos', 'left'), ('left_option', 'Klara'), ('right_option', 'Majken'), ('trial_counter', '76/80')]), OrderedDict([('nr_in_trial', 77), ('list_1', 3), ('id', 148), ('item', 52), ('condition', 'na'), ('type', 'Filler_2'), ('sentence_involvement', 'William var meget frustreret.'), ('sentence_tar', 'Bertram fik et fotografi af ham.'), ('stim', 'William var meget frustreret. Bertram fik et fotografi af ham.'), ('question', 'Hvem var fotografiet af?'), ('verbum_1', 'na'), ('verbum_2', 'na'), ('deltager_koen', 'mand'), ('subj_navn', 'William'), ('obj_navn', 'Bertram'), ('feeling', 'frustreret'), ('subj_screen_pos', 'left'), ('left_option', 'William'), ('right_option', 'Bertram'), ('trial_counter', '77/80')]), OrderedDict([('nr_in_trial', 78), ('list_1', 3), ('id', 38), ('item', 10), ('condition', 'obj_refl'), ('type', 'objPræpF'), ('sentence_involvement', 'Asger var meget frustreret.'), ('sentence_tar', 'Thomas afviste ham ved sin hoveddør.'), ('stim', 'Asger var meget frustreret. Thomas afviste ham ved sin hoveddør.'), ('question', 'Hvis hoveddør var det?'), ('verbum_1', 'afvise'), ('verbum_2', 'na'), ('deltager_koen', 'mand'), ('subj_navn', 'Thomas'), ('obj_navn', 'Asger'), ('feeling', 'frustreret'), ('subj_screen_pos', 'right'), ('left_option', 'Asger'), ('right_option', 'Thomas'), ('trial_counter', '78/80')]), OrderedDict([('nr_in_trial', 79), ('list_1', 3), ('id', 166), ('item', 70), ('condition', 'na'), ('type', 'Filler_4'), ('sentence_involvement', 'Ditte var meget overrasket.'), ('sentence_tar', 'Anja kendte ikke bandet på scenen.'), ('stim', 'Ditte var meget overrasket. Anja kendte ikke bandet på scenen.'), ('question', 'Hvem var overrasket?'), ('verbum_1', 'na'), ('verbum_2', 'na'), ('deltager_koen', 'kvinde'), ('subj_navn', 'Ditte'), ('obj_navn', 'Anja'), ('feeling', 'overrasket'), ('subj_screen_pos', 'left'), ('left_option', 'Ditte'), ('right_option', 'Anja'), ('trial_counter', '79/80')]), OrderedDict([('nr_in_trial', 80), ('list_1', 3), ('id', 9), ('item', 3), ('condition', 'subj_refl'), ('type', 'objPræpF'), ('sentence_involvement', 'Maja var meget tilfreds.'), ('sentence_tar', 'Hun roste Ulla på sin arbejdsplads.'), ('stim', 'Maja var meget tilfreds. Hun roste Ulla på sin arbejdsplads.'), ('question', 'Hvis arbejdsplads var det?'), ('verbum_1', 'rose'), ('verbum_2', 'na'), ('deltager_koen', 'kvinde'), ('subj_navn', 'Maja'), ('obj_navn', 'Ulla'), ('feeling', 'tilfreds'), ('subj_screen_pos', 'left'), ('left_option', 'Maja'), ('right_option', 'Ulla'), ('trial_counter', '80/80')])]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="trial_stimuli_3_2.xlsx" valType="str"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="sequential" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="code"/>
+      <Param name="name" updates="None" val="trials" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="pause"/>
+    <Routine name="stimuli"/>
+    <Routine name="trial_2"/>
+    <Routine name="tak"/>
+    <LoopTerminator name="trials"/>
+    <Routine name="end"/>
+  </Flow>
+</PsychoPy2experiment>

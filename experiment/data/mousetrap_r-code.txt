@@ -1,0 +1,19 @@
+# importing file
+
+> View(raw-data)	
+> data_raw <- raw-data
+> mouseData <- mt_import_mousetrap(data_raw)
+
+# remap the mousetracking data (so all answers seem to be the same side)
+mouseData <- mt_remap_symmetric(mouseData)
+
+# align the start: there is a small variance in the exact starting point, that we get rid of.
+mouseData <- mt_align_start(mouseData, start=c(0,0))
+
+# Measure MAD
+
+mouseData <- mt_measures(mouseData)
+
+#export
+
+write.csv(mouseData[["measures"]][["MAD"]], "C:\\Users\\User\\Desktop\\mousetrap-output.csv)
